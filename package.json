@@ -1,11 +1,14 @@
 {
-  "name": "apidoc",
-  "version": "0.15.1",
-  "description": "RESTful web API Documentation Generator",
-  "author": "Peter Rottmann <rottmann@inveris.de>",
+  "name": "uj-apidoc",
+  "version": "1.0.0",
+  "description": "RESTful web API Documentation Generator (Java, C#, Objective-C Support Edition)",
+  "author": "Harry Jung <jung@heesung.me>",
+  "contributors": [
+      "ChangWook Jeong <hoiogi@gmail.com>"
+  ],
   "license": {
     "type": "MIT",
-    "url": "https://github.com/apidoc/apidoc/blob/master/LICENSE"
+    "url": "https://github.com/harry-jung/apidoc/blob/master/LICENSE"
   },
   "preferGlobal": true,
   "bin": "bin/apidoc",
@@ -13,10 +16,11 @@
   "homepage": "http://apidocjs.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/apidoc/apidoc.git"
+    "url": "https://github.com/harry-jung/apidoc"
   },
   "bugs": {
-    "url": "https://github.com/apidoc/apidoc/issues"
+    "url": "https://github.com/apidoc/apidoc/issues",
+    "email": "hoiogi@gmail.com"
   },
   "scripts": {
     "test": "npm run jshint && mocha test/",
@@ -30,13 +34,17 @@
     "doc",
     "documentation",
     "rest",
-    "restful"
+    "restful",
+    "java",
+    "c#",
+    "objc",
+    "objective-c"
   ],
   "engines": {
     "node": ">= 0.10.0"
   },
   "dependencies": {
-    "apidoc-core": "~0.6.1",
+    "uj-apidoc-core": "^1.0.0",
     "fs-extra": "~0.26.5",
     "lodash": "~4.5.0",
     "markdown-it": "^6.0.0",
