@@ -1,6 +1,6 @@
 {
   "name": "uj-apidoc",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "RESTful web API Documentation Generator (Java, C#, Objective-C Support Edition)",
   "author": "Harry Jung <jung@heesung.me>",
   "contributors": [
